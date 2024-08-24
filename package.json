@@ -1,0 +1,37 @@
+{
+    "name": "node-pelud",
+    "version": "1.0.0",
+    "description": "Paquete de imágenes y gifs random en español",
+    "main": "index.js",
+    "type": "module",
+    "typings": "typings/index.d.ts",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^1.7.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Korsinemi/node-pelud.git"
+    },
+    "author": "Korsinemi",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Korsinemi/node-pelud/issues"
+    },
+    "homepage": "https://peludapi.korsinemi.link/",
+    "keywords": [
+        "peludapi",
+        "random images",
+        "random gifs",
+        "API",
+        "discord bot resources",
+        "furry",
+        "animals",
+        "text manipulation",
+        "image generation",
+        "QR code",
+        "node.js"
+    ]
+}

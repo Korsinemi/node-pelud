@@ -1,0 +1,33 @@
+{
+  "animals": {
+    "dog": "v3/animals/dog",
+    "cat": "v3/animals/cat",
+    "fox": "v3/animals/fox",
+    "shibe": "v3/animals/shibe",
+    "wolf": "v3/animals/wolf"
+  },
+  "furry": {
+    "normal": "v2/furry/normal",
+    "bulge": "v2/furry/bulge",
+    "boop": "v2/furry/boop",
+    "cuddle": "v2/furry/cuddle",
+    "fursuit": "v2/furry/fursuit",
+    "hold": "v2/furry/hold",
+    "howl": "v2/furry/howl",
+    "hug": "v2/furry/hug",
+    "kiss": "v2/furry/kiss",
+    "lick": "v2/furry/lick",
+    "propose": "v2/furry/propose"
+  },
+  "lewdfurry": {
+    "andromorph": "v2/lewdfurry/andromorph",
+    "gay_furry": "v2/lewdfurry/gayfurry",
+    "gynomorph": "v2/lewdfurry/gynomorph",
+    "lesbian_furry": "v2/lewdfurry/lesfurry",
+    "straight": "v2/lewdfurry/straight"
+  },
+  "text": {
+    "owoify": "v2/text/owoify",
+    "spoiler": "v2/text/spoiler"
+  }
+}

@@ -1,0 +1,28 @@
+°FURRYCALITY INIT /## Aqui se establece el proceso
+   
+   OWO.PROCCES.VERSION[!3]
+
+°FURRYCALITY IMPORTER /## Aqui se establecen librerias
+   
+   INDEX PROTO = FROM[!ProtogenIndexer]
+   INDEX FOX = FROM[!FoxxoReader]
+
+   PROTO.FB = FROM[!FurryBuilder]
+
+   PROTO.FURAPI = NEED PROTO.FB.READ[!-/index.js]
+   PROTO.FAPI = NEED PROTO.FURAPI.GET[PROTO.FB.BUILDER].STRUCTURE[( FROM: !JavaScript )]
+
+   PROCCED
+
+°FURRYCALITY RUN /## Aqui se estructura el codigo
+   
+   PROTO.DATA = GET PROTO.FAPI.HANDLER
+   FOX.MAKE[PROTO.DATA]
+
+   PROCCED
+
+°FURRYCALITY END /## Aqui finaliza el codigo
+
+   FCONSOLE.LOG[!Inicializado]
+
+   FINISH
