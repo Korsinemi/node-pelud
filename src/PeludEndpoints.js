@@ -2,8 +2,6 @@ import axios from 'axios';
 import { PeludError } from './src/PeludError.js';
 import endpoints from './src/endpoints.json';
 
-const catchPeludError = "Algo ha fallado tratando de obtener los datos :c, puede que la API se encuentre en mantenimiento o haya colapsado, si ves este mensaje ve a mi server de Discord (https://korsinemi.link/discord/) y reporta lo siguiente en el canal \"reportes\" de la categoria \"Apps\": ";
-
 /**
  * Crea los endpoints para interactuar con la API.
  * @param {string} baseURL - La URL base de la API.
